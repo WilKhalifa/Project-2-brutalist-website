@@ -1,5 +1,5 @@
 
-body {
+.home-body {
   overflow: hidden;
 }
 
@@ -8,7 +8,7 @@ header {
   z-index: 2;
 }
 
-h1 {
+.slide1-title {
   animation-duration: 10s;
   animation-name: slidein;
   animation-iteration-count: infinite;
@@ -187,4 +187,21 @@ display: none;
   98% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   99% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
   100% { text-shadow: -3px 0 0 #0c33f5, 3px 0 0 lime; filter: blur(0);}
+};
+
+
+
+/*cube progra page*/
+
+
+/*infos-pratiques*/
+
+.div-title {
+  background-color: ;
+  z-index: 1
+}
+
+.infos-title {
+  z-index: 3;
+  background-color: white;
 }

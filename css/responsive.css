@@ -1,0 +1,42 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .left-section, .right-section {
+    float: none;
+    width: 100%;
+  }
+
+  .menu-principal ul {
+    flex-wrap: wrap;
+  }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  /* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  /* Styles */
+}
+
+
+.container-principal {
+  width: 100%;
+  padding: 0;
+}
+
+#day-row2, #day-row3 {
+  display: none;
+}
+
+#day-row1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.day {
+  font-size: 44px;
+}
