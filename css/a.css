@@ -111,12 +111,18 @@ a:hover {
   text-align: center;
 }
 
-.cube_face_right p {
+.cube_face_right p, .cube_face_top p, .cube_face_back p  {
   margin: -10px;
 }
 
 .little-title {
   font-size: 30px;
+  margin: -10px;
+}
+
+#automatisation-title{
+  font-size: 24px;
+  margin: -10px;
 }
 
 .rotate-title {
