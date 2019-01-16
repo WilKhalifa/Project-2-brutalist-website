@@ -2,6 +2,10 @@
   overflow: hidden;
 }
 
+.body-infos {
+  overflow-x: hidden;
+}
+
 header {
   position: relative;
   z-index: 2;
@@ -613,10 +617,10 @@ div ul li img {
 
 .scene2 {
   perspective: 8000px;
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   margin: 0 auto;
-  margin: -20px;
+  /*margin: -20px;*/
 }
 
 .cube-infos {
@@ -630,8 +634,8 @@ div ul li img {
 
 .cube_face2 {
   position: absolute;
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   border: 2px solid black;
   text-align: center;
 }
@@ -642,51 +646,51 @@ div ul li img {
 }
 
 .face_front {
-  transform: rotateY(0deg) translateZ(400px);
+  transform: rotateY(0deg) translateZ(300px);
 }
 
 .face_right {
-  transform: rotateY(90deg) translateZ(400px);
+  transform: rotateY(90deg) translateZ(300px);
 }
 
 .face_back {
-  transform: rotateY(180deg) translateZ(400px);
+  transform: rotateY(180deg) translateZ(300px);
 }
 
 .face_left {
-  transform: rotateY(-90deg) translateZ(400px);
+  transform: rotateY(-90deg) translateZ(300px);
 }
 
 .face_top {
-  transform: rotateX(90deg) translateZ(400px);
+  transform: rotateX(90deg) translateZ(300px);
 }
 
 .face_bottom {
-  transform: rotateX(-90deg) translateZ(400px);
+  transform: rotateX(-90deg) translateZ(300px);
 }
 
 .cube-infos.show2-front {
-  transform: translateZ(-400px) rotateY(0deg);
+  transform: translateZ(-300px) rotateY(0deg);
 }
 
 .cube-infos.show2-right {
-  transform: translateZ(-400px) rotateY(-90deg);
+  transform: translateZ(-300px) rotateY(-90deg);
 }
 
 .cube-infos.show2-back {
-  transform: translateZ(-400px) rotateY(-180deg);
+  transform: translateZ(-300px) rotateY(-180deg);
 }
 
 .cube-infos.show2-left {
-  transform: translateZ(-400px) rotateY(90deg);
+  transform: translateZ(-300px) rotateY(90deg);
 }
 
 .cube-infos.show2-top {
-  transform: translateZ(-400px) rotateX(-90deg);
+  transform: translateZ(-300px) rotateX(-90deg);
 }
 
 .cube-infos.show2-bottom {
-  transform: translateZ(-400px) rotateX(90deg);
+  transform: translateZ(-300px) rotateX(90deg);
 }
 
 .form {
@@ -695,12 +699,14 @@ div ul li img {
   text-decoration: none;
   font-size: 32px;
   transform: rotate(45deg);
-  margin: -25px;
+  /*margin: -25px;*/
 }
 
 .form-text {
   font-size: 32px;
-  transform: rotate(-45deg);
+  transform: rotate(-90deg);
+  padding: 140px 0px;
+  z-index: 2;
 }
 
 .cube-infos input {
